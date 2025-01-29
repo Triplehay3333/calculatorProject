@@ -10,6 +10,11 @@ body {
   background:url('image.png');
   background-size:cover;
 }
+#date{
+ text-align:center;
+ 
+  font-weight:2em;
+}
 
 .calculator {
   background: #fff;
