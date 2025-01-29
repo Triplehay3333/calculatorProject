@@ -1,4 +1,11 @@
+function updateDateTime() {
+            let now = new Date();
+            let formattedDate = now.toLocaleString(); // Get local date and time
+            document.getElementById("datetime").innerText = formattedDate;
+        }
 
+        updateDateTime(); // Run immediately
+        setInterval(updateDateTime, 1000); // Update every second
 // Perform arithmetic operations
 function performOperation(operation) {
   // Get input values
